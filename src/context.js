@@ -51,7 +51,7 @@ const AppProvider = ({ children }) => {
 
   return <AppContext.Provider value={{...state,handleSearch,handlePage}}>{children}</AppContext.Provider>
 }
-// make sure use
+
 export const useGlobalContext = () => {
   return useContext(AppContext)
 }
