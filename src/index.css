@@ -1,19 +1,11 @@
-/*
-=============== 
-Variables
-===============
-*/
+
 
 :root {
   --clr-bcg: #fff;
   --clr-font: #282c35;
   --clr-primary: #d23669;
 }
-/*
-=============== 
-Global Styles
-===============
-*/
+
 .dark-theme {
   --clr-bcg: #282c35;
   --clr-font: #fff;
@@ -94,9 +86,7 @@ p {
     line-height: 1;
   }
 }
-/*  global classes */
 
-/* section */
 .section {
   width: 90vw;
   margin: 0 auto;
@@ -109,11 +99,7 @@ p {
   }
 }
 
-/*
-=============== 
-Search
-===============
-*/
+
 .search-form {
   width: 90vw;
   max-width: 1170px;
@@ -135,11 +121,7 @@ Search
   margin-top: 1rem;
 }
 
-/*
-=============== 
-Buttons
-===============
-*/
+
 
 .btn-container {
   width: 90vw;
@@ -172,11 +154,7 @@ Buttons
   cursor: not-allowed;
 }
 
-/*
-=============== 
-Spinner
-===============
-*/
+
 .spinner-container {
   position: relative;
 }
@@ -197,11 +175,7 @@ Spinner
   animation: spinner 0.6s linear infinite;
 }
 
-/*
-=============== 
-Story
-===============
-*/
+
 .stories {
   width: 90vw;
   max-width: 1170px;
